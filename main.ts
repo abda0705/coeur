@@ -1,11 +1,12 @@
 basic.forever(function () {
-    basic.showIcon(IconNames.Heart)
-    basic.pause(2000)
+    basic.showIcon(IconNames.Giraffe)
+    basic.pause(500)
     basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
+        . # # . .
+        . . # . .
+        . . # . .
+        . . # # #
+        . . # . #
         `)
+    basic.pause(500)
 })
